@@ -80,7 +80,45 @@
 1. 下载插件文件到本地
 2. 根据目标平台（如 Stable Diffusion WebUI、ComfyUI 等）的插件安装方式集成
 3. 重启图片生成工具
+### 安装与依赖
+### 本插件仅有一个必需的外部依赖库：
 
+PySide6==6.7.2：用于构建图形用户界面（GUI）的 Python 绑定库[1]。
+在 ComfyUI 中安装插件及依赖的方法
+方法一：通过 pip 手动安装依赖（推荐）
+将插件文件夹（例如 prompt_manager）复制到 ComfyUI 的 custom_nodes 目录下。
+
+打开终端（命令行），确保已激活 ComfyUI 的 Python 环境。
+
+使用 pip 安装指定版本的 PySide6：
+
+pip install PySide6==6.7.2
+如果使用 ComfyUI 启动器，其 Python 解释器通常位于 python_embeded 文件夹中，命令应为[2]：
+
+path_to_comfyui/python_embeded/python.exe -m pip install PySide6==6.7.2
+重启 ComfyUI。
+
+方法二：通过 requirements.txt 文件安装
+如果插件提供了 requirements.txt 文件（内容为 PySide6==6.7.2），可以将其放入插件目录，然后在 ComfyUI 根目录下执行[3]：
+
+pip install -r custom_nodes/prompt_manager/requirements.txt
+注意：直接安装可能会与 ComfyUI 的核心依赖冲突，建议先确认环境[4]。
+
+方法三：使用 ComfyUI 管理界面（如果支持）
+某些 ComfyUI 启动器或管理工具提供了图形化界面来安装 Python 依赖库[5][6]。您可以：
+
+进入“Python 依赖管理”或类似界面。
+点击“安装新库”。
+输入 PySide6 并指定版本 6.7.2，然后点击安装。
+安装验证
+安装完成后，可以在 Python 环境中运行以下命令验证是否安装成功：
+
+import PySide6
+print(PySide6.__version__)  # 应输出 6.7.2
+故障排除
+ModuleNotFoundError: No module named 'PySide6'：表示 PySide6 未正确安装。请确保在正确的 Python 环境中执行了安装命令[7]。
+版本冲突：如果已存在其他版本的 PySide6，可以尝试先卸载再安装：pip uninstall PySide6，然后重新安装指定版本。
+系统依赖问题：在 Linux 系统上，PySide6 可能需要额外的系统库（如 libxcb-cursor0）。如果遇到 Qt 平台插件错误，可能需要安装这些系统包[8]。
 ### 基本使用流程
 1. 打开插件界面
 2. 根据需要选择各个分类的提示词值
