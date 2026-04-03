@@ -35,6 +35,9 @@
 - 新增 NSFW（Not Safe For Work）分类选项
 - 包含相关的内容级别和风格选择
 - 明确标识，避免误用
+## 界面  
+<img width="414" height="644" alt="image" src="https://github.com/user-attachments/assets/56e9d5f6-cda5-4965-8689-808232daf2cd" />
+
 
 ## 数据结构
 
