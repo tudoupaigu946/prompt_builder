@@ -14,7 +14,10 @@
       "半身 (Half Body)",
       "背影 (Back View)",
       "侧脸 (Side Face)",
-      "正脸 (Front Face)"
+      "正脸 (Front Face)",
+      "仰头 (Looking Up)",
+      "低头 (Looking Down)",
+      "回眸 (Looking Back)"
     ],
     "动物 (Animals)": [
       "猫 (Cat)",
@@ -26,7 +29,17 @@
       "独角兽 (Unicorn)",
       "恐龙 (Dinosaur)",
       "昆虫 (Insect)",
-      "鱼 (Fish)"
+      "鱼 (Fish)",
+      "狼 (Wolf)",
+      "狐狸 (Fox)",
+      "兔子 (Rabbit)",
+      "熊 (Bear)",
+      "大象 (Elephant)",
+      "老虎 (Tiger)",
+      "狮子 (Lion)",
+      "鲸鱼 (Whale)",
+      "海豚 (Dolphin)",
+      "章鱼 (Octopus)"
     ],
     "物品 (Objects)": [
       "汽车 (Car)",
@@ -40,7 +53,20 @@
       "花 (Flower)",
       "食物 (Food)",
       "武器 (Weapon)",
-      "乐器 (Musical Instrument)"
+      "乐器 (Musical Instrument)",
+      "书籍 (Book)",
+      "电脑 (Computer)",
+      "手机 (Phone)",
+      "钟表 (Clock)",
+      "眼镜 (Glasses)",
+      "帽子 (Hat)",
+      "杯子 (Cup)",
+      "椅子 (Chair)",
+      "桌子 (Table)",
+      "灯 (Lamp)",
+      "机器人 (Robot)",
+      "无人机 (Drone)",
+      "雕塑 (Sculpture)"
     ]
   },
   "场景 (Scene)": {
@@ -61,7 +87,16 @@
       "地下室 (Basement)",
       "阁楼 (Attic)",
       "实验室 (Laboratory)",
-      "监控室 (Control Room)"
+      "监控室 (Control Room)",
+      "健身房 (Gym)",
+      "游泳池 (Swimming Pool)",
+      "舞厅 (Ballroom)",
+      "剧院 (Theatre)",
+      "电影院 (Cinema)",
+      "教堂 (Church)",
+      "寺庙 (Temple)",
+      "医院 (Hospital)",
+      "监狱 (Prison)"
     ],
     "室外 (Outdoor)": [
       "街道 (Street)",
@@ -127,7 +162,158 @@
       "纪念碑 (Monument)",
       "雕像 (Statue)",
       "广场 (Square)",
-      "喷泉 (Fountain)"
+      "喷泉 (Fountain)",
+      "悬崖 (Cliff)",
+      "沼泽 (Swamp)",
+      "丛林 (Jungle)",
+      "竹海 (Bamboo Forest)",
+      "樱花林 (Sakura Grove)",
+      "枫叶林 (Maple Forest)",
+      "薰衣草田 (Lavender Field)",
+      "向日葵田 (Sunflower Field)",
+      "茶园 (Tea Plantation)",
+      "葡萄园 (Vineyard)"
+    ]
+  },
+  "时间与天气 (Time & Weather)": {
+    "时段 (Time of Day)": [
+      "黎明 (Dawn)",
+      "清晨 (Early Morning)",
+      "上午 (Morning)",
+      "正午 (Noon)",
+      "下午 (Afternoon)",
+      "黄昏 (Dusk)",
+      "傍晚 (Evening)",
+      "夜晚 (Night)",
+      "深夜 (Late Night)",
+      "午夜 (Midnight)"
+    ],
+    "天气 (Weather)": [
+      "晴天 (Sunny)",
+      "多云 (Cloudy)",
+      "阴天 (Overcast)",
+      "雨天 (Rainy)",
+      "暴雨 (Storm)",
+      "雷雨 (Thunderstorm)",
+      "雪天 (Snowy)",
+      "暴风雪 (Blizzard)",
+      "雾天 (Foggy)",
+      "薄雾 (Misty)",
+      "彩虹 (Rainbow)",
+      "龙卷风 (Tornado)",
+      "台风 (Typhoon)",
+      "沙尘暴 (Sandstorm)",
+      "极光 (Aurora)",
+      "日食 (Solar Eclipse)",
+      "月食 (Lunar Eclipse)"
+    ]
+  },
+  "动作与姿态 (Action & Pose)": {
+    "人物动作 (Human Action)": [
+      "站立 (Standing)",
+      "坐 (Sitting)",
+      "躺 (Lying Down)",
+      "行走 (Walking)",
+      "跑步 (Running)",
+      "跳跃 (Jumping)",
+      "舞蹈 (Dancing)",
+      "游泳 (Swimming)",
+      "骑行 (Riding)",
+      "驾驶 (Driving)",
+      "飞行 (Flying)",
+      "战斗 (Fighting)",
+      "拥抱 (Hugging)",
+      "亲吻 (Kissing)",
+      "握手 (Handshake)",
+      "挥手 (Waving)",
+      "指 (Pointing)",
+      "思考 (Thinking)",
+      "阅读 (Reading)",
+      "写作 (Writing)",
+      "绘画 (Drawing)",
+      "弹奏乐器 (Playing Instrument)",
+      "唱歌 (Singing)",
+      "烹饪 (Cooking)",
+      "工作 (Working)",
+      "睡觉 (Sleeping)",
+      "洗澡 (Bathing)",
+      "锻炼 (Exercising)",
+      "瑜伽 (Yoga)",
+      "冥想 (Meditating)"
+    ],
+    "姿态 (Pose)": [
+      "正面 (Front Pose)",
+      "侧面 (Side Pose)",
+      "背面 (Back Pose)",
+      "坐姿 (Seated Pose)",
+      "站姿 (Standing Pose)",
+      "卧姿 (Reclining Pose)",
+      "动态 (Dynamic Pose)",
+      "静态 (Static Pose)",
+      "优雅 (Elegant Pose)",
+      "随意 (Casual Pose)",
+      "威严 (Majestic Pose)",
+      "性感 (Sensual Pose)",
+      "可爱 (Cute Pose)",
+      "霸气 (Dominant Pose)",
+      "害羞 (Shy Pose)",
+      "傲慢 (Arrogant Pose)"
+    ]
+  },
+  "服装与配饰 (Clothing & Accessories)": {
+    "服装 (Clothing)": [
+      "便装 (Casual Wear)",
+      "正装 (Formal Wear)",
+      "礼服 (Gown)",
+      "西装 (Suit)",
+      "校服 (School Uniform)",
+      "制服 (Uniform)",
+      "运动服 (Sportswear)",
+      "泳装 (Swimsuit)",
+      "内衣 (Underwear)",
+      "睡衣 (Pajamas)",
+      "古装 (Ancient Costume)",
+      "汉服 (Hanfu)",
+      "和服 (Kimono)",
+      "旗袍 (Cheongsam)",
+      "盔甲 (Armor)",
+      "斗篷 (Cape)",
+      "披风 (Cloak)",
+      "夹克 (Jacket)",
+      "大衣 (Coat)",
+      "毛衣 (Sweater)",
+      "T恤 (T-shirt)",
+      "衬衫 (Shirt)",
+      "牛仔裤 (Jeans)",
+      "裙子 (Skirt)",
+      "短裤 (Shorts)",
+      "丝袜 (Stockings)",
+      "靴子 (Boots)",
+      "高跟鞋 (High Heels)"
+    ],
+    "配饰 (Accessories)": [
+      "眼镜 (Glasses)",
+      "墨镜 (Sunglasses)",
+      "帽子 (Hat)",
+      "头盔 (Helmet)",
+      "围巾 (Scarf)",
+      "领带 (Tie)",
+      "项链 (Necklace)",
+      "耳环 (Earrings)",
+      "手镯 (Bracelet)",
+      "戒指 (Ring)",
+      "手表 (Watch)",
+      "背包 (Backpack)",
+      "腰带 (Belt)",
+      "手套 (Gloves)",
+      "面具 (Mask)",
+      "头饰 (Headwear)",
+      "发带 (Hairband)",
+      "皇冠 (Crown)",
+      "王冠 (Tiara)",
+      "翅膀 (Wings)",
+      "尾巴 (Tail)",
+      "角 (Horns)"
     ]
   },
   "风格 (Style)": {
@@ -168,7 +354,18 @@
       "90年代 (90s)",
       "蒸汽波 (Vaporwave)",
       "孟菲斯风格 (Memphis Style)",
-      "浮世绘 (Ukiyo-e)"
+      "浮世绘 (Ukiyo-e)",
+      "立体主义 (Cubism)",
+      "表现主义 (Expressionism)",
+      "野兽派 (Fauvism)",
+      "未来主义 (Futurism)",
+      "构成主义 (Constructivism)",
+      "达达主义 (Dadaism)",
+      "超扁平 (Superflat)",
+      "新古典主义 (Neoclassicism)",
+      "浪漫主义 (Romanticism)",
+      "现实主义 (Realism)",
+      "自然主义 (Naturalism)"
     ],
     "艺术家 (Artists)": [
       "毕加索 (Picasso)",
@@ -186,7 +383,12 @@
       "迪士尼 (Disney)",
       "皮克斯 (Pixar)",
       "漫威 (Marvel)",
-      "DC (DC Comics)"
+      "DC (DC Comics)",
+      "吉卜力 (Ghibli)",
+      "攻壳机动队 (Ghost in the Shell)",
+      "最终幻想 (Final Fantasy)",
+      "塞尔达传说 (The Legend of Zelda)",
+      "EVA (Evangelion)"
     ],
     "渲染引擎 (Render Engine)": [
       "Octane Render",
@@ -201,7 +403,11 @@
       "C4D (Cinema 4D)",
       "Blender (Blender)",
       "Maya (Maya)",
-      "ZBrush (ZBrush)"
+      "ZBrush (ZBrush)",
+      "Lumion",
+      "Twinmotion",
+      "Corona Renderer",
+      "Mental Ray"
     ]
   },
   "材质 (Material)": {
@@ -223,7 +429,15 @@
       "塑料 (Plastic)",
       "橡胶 (Rubber)",
       "碳纤维 (Carbon Fiber)",
-      "霓虹灯管 (Neon Tube)"
+      "霓虹灯管 (Neon Tube)",
+      "陶瓷 (Ceramic)",
+      "大理石 (Marble)",
+      "混凝土 (Concrete)",
+      "砖块 (Brick)",
+      "藤蔓 (Wicker)",
+      "羽毛 (Feather)",
+      "鳞片 (Scale)",
+      "黏液 (Slime)"
     ]
   },
   "光照 (Lighting)": {
@@ -235,7 +449,9 @@
       "逆光 (Backlight)",
       "晨光 (Morning Light)",
       "黄昏光 (Golden Hour)",
-      "极光 (Aurora)"
+      "极光 (Aurora)",
+      "阴天漫射光 (Overcast Diffuse)",
+      "树影光 (Sunbeams through Trees)"
     ],
     "人造光": [
       "霓虹灯 (Neon)",
@@ -247,7 +463,13 @@
       "轮廓光 (Rim Light)",
       "三点布光 (Three Point Lighting)",
       "赛博朋克灯光 (Cyberpunk Lighting)",
-      "全息投影 (Hologram)"
+      "全息投影 (Hologram)",
+      "荧光灯 (Fluorescent)",
+      "白炽灯 (Incandescent)",
+      "激光 (Laser)",
+      "火把 (Torch)",
+      "闪电 (Lightning)",
+      "爆炸光 (Explosion Light)"
     ]
   },
   "氛围 (Atmosphere)": {
@@ -273,7 +495,18 @@
       "空灵 (Ethereal)",
       "潮湿 (Moist)",
       "雾蒙蒙 (Foggy)",
-      "烟雾缭绕 (Smoky)"
+      "烟雾缭绕 (Smoky)",
+      "浪漫 (Romantic)",
+      "悲伤 (Sad)",
+      "欢乐 (Joyful)",
+      "愤怒 (Angry)",
+      "恐惧 (Fearful)",
+      "惊悚 (Thriller)",
+      "悬疑 (Suspenseful)",
+      "庄严 (Solemn)",
+      "神圣 (Sacred)",
+      "邪恶 (Evil)",
+      "纯洁 (Pure)"
     ]
   },
   "构图 (Composition)": {
@@ -297,7 +530,14 @@
       "特写 (Close-up)",
       "全景 (Panorama)",
       "等距投影 (Isometric)",
-      "透视 (Perspective)"
+      "透视 (Perspective)",
+      "过肩镜头 (Over-the-shoulder)",
+      "主观镜头 (POV)",
+      "倾斜镜头 (Dutch Angle)",
+      "推轨镜头 (Dolly Shot)",
+      "手持镜头 (Handheld)",
+      "慢动作 (Slow Motion)",
+      "延时摄影 (Time-lapse)"
     ]
   },
   "参数 (Parameters)": {
@@ -400,7 +640,6 @@
       "波普艺术风格 (Pop Art)",
       "超现实主义 (Surrealism)",
       "抽象表现主义 (Abstract Expressionism)",
-      "极简主义 (Minimalism)",
       "概念艺术 (Concept Art)",
       "数字艺术 (Digital Art)",
       "矢量艺术 (Vector Art)",
@@ -461,7 +700,34 @@
       "3D立体 (3D Anaglyph)",
       "VR (Virtual Reality)",
       "AR (Augmented Reality)",
-      "MR (Mixed Reality)"
+      "MR (Mixed Reality)",
+      "HDR (High Dynamic Range)",
+      "SDR (Standard Dynamic Range)",
+      "Log拍摄 (Log Footage)",
+      "RAW格式 (RAW Format)"
+    ]
+  } ,
+  "NSFW": {
+    "敏感类型": [
+      "无",
+      "性感",
+      "暴露",
+      "泳装",
+      "内衣",
+      "制服诱惑",
+      "女仆装",
+      "兔女郎",
+      "湿身",
+      "透视装",
+      "吊带袜",
+      "低胸装",
+      "紧身衣",
+      "大胸",
+      "翘臀",
+      "美腿",
+      "成人向",
+      "18禁",
+      "情欲氛围"
     ]
   }
 }
