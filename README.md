@@ -36,7 +36,8 @@
 - 包含相关的内容级别和风格选择
 - 明确标识，避免误用
 ## 界面  
-<img width="414" height="644" alt="image" src="https://github.com/user-attachments/assets/56e9d5f6-cda5-4965-8689-808232daf2cd" />
+<img width="1119" height="718" alt="image" src="https://github.com/user-attachments/assets/9b59c6c1-18d2-431f-8c4a-a486218332fe" />
+
 
 
 ## 数据结构
