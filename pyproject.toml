@@ -1,31 +1,27 @@
-[build-system]
-requires = ["hatchling>=1.25.0"]
-build-backend = "hatchling.build"
 
 [project]
-name = "comfyui-prompt-builder"
-version = "1.0.0"
-authors = [
-  { name = "tudoupaigu946" }
-]
+name = "prompt-builder"
+version = "1.0.1"
 description = "A prompt management plugin for Chinese models like Qwen and Z-Image"
-long_description = "Prompt management plugin for Chinese image models, supports category selection, random generation, NSFW options."
-long_description_content_type = "text/markdown"
 license = { file = "LICENSE" }
-classifiers = [
-  "Programming Language :: Python :: 3",
-  "Operating System :: OS Independent"
-]
 requires-python = ">=3.10"
-
 dependencies = [
+    "comfyui-frontend-package<=1.21.6"  # 前端版本兼容性
 ]
+classifiers = [
+    "Operating System :: OS Independent"  # 适用于所有操作系统
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
 
 [project.urls]
 Repository = "https://github.com/tudoupaigu946/prompt_builder"
+Documentation = "https://github.com/tudoupaigu946/prompt_builder/wiki"
+"Bug Tracker" = "https://github.com/tudoupaigu946/prompt_builder/issues"
 
-[comfyui]
-publisher_id = "tudoupaigu946"
-display_name = "中文提示词随机插件"
-node_prefix = "prompt/"
-category = "Custom"
+[tool.comfy]
+PublisherId = "tudoupaigu946"
+DisplayName = "Prompt Builder"
+requires-comfyui = ">=1.0.0"  # ComfyUI 版本兼容性
