@@ -1,7 +1,7 @@
 
 [project]
 name = "prompt-builder"
-version = "1.0.1"
+version = "1.0.3"
 description = "A prompt management plugin for Chinese models like Qwen and Z-Image"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
@@ -24,4 +24,6 @@ Documentation = "https://github.com/tudoupaigu946/prompt_builder/wiki"
 [tool.comfy]
 PublisherId = "tudoupaigu946"
 DisplayName = "Prompt Builder"
+Icon = "https://raw.githubusercontent.com/tudoupaigu946/prompt_builder/main/icon.png"
+Banner = "https://raw.githubusercontent.com/tudoupaigu946/prompt_builder/main/banner.png"
 requires-comfyui = ">=1.0.0"  # ComfyUI 版本兼容性
