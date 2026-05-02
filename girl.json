@@ -1,0 +1,187 @@
+{
+  "主体 (Subject)": {
+    "人物 (People)": [
+      "女性 (Female)",
+      "少女 (Maiden)",
+      "女神 (Goddess)",
+      "女巫 (Witch)",
+      "公主 (Princess)",
+      "精灵 (Elf)",
+      "暗影女子 (Shadow Lady)",
+      "赛博女郎 (Cyber Diva)",
+      "女性特写 (Female Portrait)",
+      "全身 (Full Body)",
+      "半身 (Half Body)",
+      "背影 (Back View)",
+      "侧脸 (Side Face)",
+      "正脸 (Front Face)",
+      "仰头 (Looking Up)",
+      "低头 (Looking Down)",
+      "回眸 (Looking Back)"
+    ],
+    "物/元素 (Elements)": [
+      "花卉 (Flowers)",
+      "蝴蝶 (Butterfly)",
+      "宝石 (Gemstone)",
+      "发饰 (Hair Accessories)",
+      "羽毛 (Feathers)",
+      "蝴蝶结 (Bow)",
+      "系带 (Lace)"
+    ]
+  },
+  "身体部位 (Body Parts)": {
+    "面部与发型 (Face & Hair)": [
+      "精致五官 (Delicate Features)",
+      "长发 (Long Hair)",
+      "卷发 (Curly Hair)",
+      "双马尾 (Twin Tails)",
+      "高马尾 (High Ponytail)",
+      "刘海 (Bangs)",
+      "娇羞脸庞 (Shy Face)",
+      "魅惑眼神 (Seductive Eyes)"
+    ],
+    "上半身 (Upper Body)": [
+      "胸部 (Breasts)",
+      "曲线 (Curves)",
+      "锁骨 (Collarbones)",
+      "肩膀 (Shoulders)",
+      "腹部 (Abdomen)",
+      "腰肢 (Waist)",
+      "精致肩部 (Delicate Shoulders)"
+    ],
+    "下半身 (Lower Body)": [
+      "臀部 (Hips)",
+      "翘臀 (Booty)",
+      "大腿 (Thighs)",
+      "膝盖 (Knees)",
+      "脚踝 (Ankles)",
+      "纤细双腿 (Slender Legs)"
+    ]
+  },
+  "动作与姿态 (Action & Pose)": {
+    "身体姿态 (Body Pose)": [
+      "优雅姿态 (Elegant Pose)",
+      "慵懒姿态 (Lazy Pose)",
+      "魅惑姿态 (Sensual Pose)",
+      "动态舞姿 (Dynamic Dance Pose)",
+      "半倚靠 (Semi-leaning)",
+      "诱惑站立 (Seductive Stand)",
+      "侧卧 (Side Reclining)",
+      "紧抱 (Embracing)",
+      "轻抚 (Gentle Touching)",
+      "娇俏 (Vivacious)"
+    ],
+    "行为动作 (Action)": [
+      "撩发 (Tossing Hair)",
+      "撩裙 (Flaring Skirt)",
+      "漫步 (Strolling)",
+      "坐姿 (Sitting Gracy)",
+      "轻舞 (Dancing Lightly)",
+      "凝视 (Gazing)",
+      "喘息 (Panting)",
+      "侧身看 (Looking Sideways)",
+      "羞赧 (Blushing)"
+    ]
+  },
+  "着装与配饰 (Clothing & Accessories)": {
+    "服饰类型 (Garment Type)": [
+      "晚礼服 (Evening Gown)",
+      "连衣裙 (Dress)",
+      "紧身胸衣 (Corset)",
+      "蕾丝内衣 (Lace Lingerie)",
+      "旗袍 (Cheongsam)",
+      "Lolita风 (Lolita Style)",
+      "哥特洛丽塔 (Gothic Lolita)",
+      "制服裙 (School Skirt)",
+      "泳衣 (Swimsuit)",
+      "丝绸睡裙 (Silk Slip Dress)",
+      "露肩装 (Off-shoulder)",
+      "透视装 (Sheer Wear)"
+    ],
+    "配饰细节 (Detailing)": [
+      "蕾丝边 (Lace Trim)",
+      "珠宝项链 (Jewelry Necklace)",
+      "丝袜 (Stockings)",
+      "吊袜带 (Garter Belt)",
+      "高跟靴 (High Boots)",
+      "洛丽塔发箍 (Lolita Headpiece)",
+      "蝴蝶结装饰 (Bow Adornments)"
+    ]
+  },
+  "外部环境 (External Environment)": {
+    "自然环境 (Natural Scene)": [
+      "樱花林 (Sakura Grove)",
+      "月光森林 (Moonlit Forest)",
+      "海边沙滩 (Coastal Beach)",
+      "薰衣草田 (Lavender Field)",
+      "古老花园 (Ancient Garden)",
+      "雨林深处 (Deep Rainforest)",
+      "雪景 (Snowscape)",
+      "日落海岸 (Sunset Coast)"
+    ],
+    "人造环境 (Man-made Scene)": [
+      "巴洛克宫殿 (Baroque Palace)",
+      "蒸汽朋克机械室 (Steampunk Workshop)",
+      "维多利亚风格屋 (Victorian Mansion)",
+      "赛博朋克城市 (Cyberpunk City)",
+      "华丽舞厅 (Ornate Ballroom)",
+      "古老图书馆 (Ancient Library)",
+      "废墟景观 (Ruined Landscape)",
+      "精致咖啡馆 (Elegant Cafe)"
+    ]
+  },
+  "风格与渲染 (Style & Rendering)": {
+    "画风 (Art Style - *Fixed*)": [
+      "写实主义 (Realism)",
+      "高精度写实 (Hyper-Realism)",
+      "动漫风 (Anime)",
+      "日系插画 (Japanese Illustration)",
+      "像素艺术 (Pixel Art)",
+      "概念艺术 (Concept Art)"
+    ],
+    "氛围基调 (Atmosphere Tone)": [
+      "梦幻浪漫 (Dreamy Romantic)",
+      "神秘诱惑 (Mysterious Seduction)",
+      "华丽庄重 (Luxurious Grandeur)",
+      "慵懒甜美 (Lazy Sweetness)",
+      "忧郁哀愁 (Melancholic)",
+      "古典复古 (Classical Retro)",
+      "科幻未来感 (Sci-Fi Futuristic)",
+      "暗黑哥特 (Dark Gothic)"
+    ],
+    "材质与光照 (Material & Lighting)": [
+      "丝绸光泽 (Silk Sheen)",
+      "晶莹剔透 (Crystal Clear)",
+      "绒毛质感 (Velvet Texture)",
+      "柔和光晕 (Soft Bloom)",
+      "丁达尔光束 (God Rays)",
+      "高饱和度 (High Saturation)",
+      "深邃阴影 (Deep Shadows)"
+    ]
+  },
+  "NSFW": {
+    "敏感细节 (Detailed Sensuality)": [
+      "性感的腰部线条 (Sensual Waistline)",
+      "丰满胸部 (Full Breasts)",
+      "修长腿部 (Long Legs)",
+      "湿润皮肤 (Moist Skin)",
+      "微汗 (Light Sweat)",
+      "极度诱人 (Extremely Alluring)",
+      "半透明/半遮 (See-through/Semi-covered)",
+      "肌肤特写 (Skin Close-up)",
+      "跪姿 (Kneeling Pose)",
+      "锁骨诱惑 (Collarbone Temptation)",
+      "侧漏/深V (Side Leak/Deep V)"
+    ],
+    "情景与程度 (Context & Intensity)": [
+      "轻微暴露 (Slightly Exposed)",
+      "轻度诱惑 (Lightly Tempting)",
+      "完全裸露 (Fully Nude)",
+      "情欲氛围 (Erotic Vibe)",
+      "亲密接触 (Intimate Contact)",
+      "诱人视角 (Provocative Angle)",
+      "汗水浸湿 (Sweat-soaked)",
+      "肢体纠缠 (Intertwined Limbs)"
+    ]
+  }
+}
